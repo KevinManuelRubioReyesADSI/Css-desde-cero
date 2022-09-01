@@ -1,7 +1,16 @@
-h1{
-    color: red;
-}
+ .color-red{
+    color: greenyellow;
+ }
 
-.color-red{
-    color: blue;
-}
+ h1{
+    color:blue;
+ }
+
+ #color-blue{
+    color: blueviolet;
+ }
+
+
+ h1{
+    color: grey !important 
+ }
