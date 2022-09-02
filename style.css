@@ -1,16 +1,10 @@
- .color-red{
-    color: greenyellow;
+ *{
+    padding: 0px;
+    margin: 0px;
  }
 
- h1{
-    color:blue;
- }
-
- #color-blue{
-    color: blueviolet;
- }
-
-
- h1{
-    color: grey !important 
+ .contact-form__h2{
+    font-size: 25px;
+    background-color: #000;
+    width: 50%;
  }
