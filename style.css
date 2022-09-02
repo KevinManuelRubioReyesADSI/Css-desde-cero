@@ -4,7 +4,10 @@
  }
 
  .contact-form__h2{
-    font-size: 25px;
-    background-color: #000;
-    width: 50%;
+   font-size: 2em;
+   font-family: Georgia;
+   line-height: 1.9;
+   font-weight: normal;
+   font-stretch: normal;
+   font-variant: small-caps;
  }
