@@ -4,48 +4,15 @@
     font-size: 30px;
  }
 
- div{
-    display: block;
+ body{
+    padding-top: 100px;
+
+ }
+
+
+ .caja-fixed{
+    margin: -90px;
     background: greenyellow;
-    position: absolute;
-}
-
-div div{
-    height: 100px;
-    width: 75px;
-    background:rgb(255, 200, 600);
-}
-.contenedor{
-    margin: 50px auto;
-    width: 450px;
-    height: 450px;
-    border: 4px solid red;
-    position: relative;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-
-.hijo1{
-
-}
-
-.hijo2{
-    right: 0;
-}
-
-.hijo3{
-    right: 0;
-    bottom: 0;
-}
-
-.hijo4{
-    bottom: 0;    
-}
-
-.hijo5{
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-}
+    position: fixed;
+    opacity: .4;
+ }
