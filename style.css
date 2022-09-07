@@ -1,25 +1,12 @@
  *{
     font-family: 'Courier New', Courier, monospace,fantasy;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 30px;
  }
 
- /*.contact-fomr{
-    font-size: 25px;
- }
-
- .contact-fomr__h2{
-    font-size: 2em;
-    color: red;
- }*/
-
  h2{
-    display: inline;
-    width: 190px;
-    padding: 20px;
- }
-
- p{
-    height: 190px;
-    width: 190px;
+    background-color: brown;
+    color: aqua;
+    display: inline-block;
+    padding: 30px 50px;
  }
