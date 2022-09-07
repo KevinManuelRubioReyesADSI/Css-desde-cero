@@ -5,12 +5,20 @@
  }
 
  div{
-    width: 200px;
-    height: 200px;
-    background: rgb(7, 2, 247);
-    display: inline-block;
+    width: 120px;
+    height: 120px;
+    display: block;
 }
 
+.caja1{
+    background: chartreuse;
+}
+.caja2{
+    background: red;
+}
+.caja3{
+    background: blueviolet;
+}
 .caja4{
-    outline: 5px solid rgb(248, 0, 0);
+    background: blue;
 }
