@@ -4,15 +4,12 @@
     font-size: 30px;
  }
 
- body{
-    padding-top: 100px;
 
- }
 
 
  .caja-fixed{
-    margin: -90px;
-    background: greenyellow;
-    position: fixed;
-    opacity: .4;
+   background: greenyellow;
+   position: sticky;
+   opacity: .4;
+   top: -20px;
  }
