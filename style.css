@@ -13,5 +13,7 @@
     text-align: center;
     margin: 20px 10px;
     border-radius: 2em;
-    border: 6px solid rgb(56, 255, 7);
+    box-shadow: 30px 20px 10px 10px;
+    text-shadow: 2px 2px 7px coral, 2px 2px 7px coral;
+    transform: rotate(45deg);
 }
