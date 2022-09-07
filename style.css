@@ -15,6 +15,9 @@
 }
 .caja2{
     background: red;
+    position: relative;
+    bottom: -60px;
+    right: 100px;
 }
 .caja3{
     background: blueviolet;
