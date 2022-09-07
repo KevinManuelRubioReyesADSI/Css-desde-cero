@@ -1,8 +1,13 @@
-h1{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 2em;
+ *{
+    font-family: 'Courier New', Courier, monospace,fantasy;
     font-weight: 100;
-    color: aquamarine;
+ }
 
+ .contact-fomr{
+    font-size: 25px;
+ }
 
-  }
+ .contact-fomr__h2{
+    font-size: 2em;
+    color: red;
+ }
