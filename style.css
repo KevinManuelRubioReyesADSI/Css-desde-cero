@@ -1,13 +1,8 @@
- *{
-    padding: 0px;
-    margin: 0px;
- }
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: 100;
+    color: aquamarine;
 
- .contact-form__h2{
-   font-size: 2em;
-   font-family: Georgia;
-   line-height: 1.9;
-   font-weight: normal;
-   font-stretch: normal;
-   font-variant: small-caps;
- }
+
+  }
