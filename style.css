@@ -4,11 +4,32 @@
     font-size: 30px;
  }
 
-b{
-  width: 500px;
-  height: 150px;
-  margin: 30px;
-  border: 15px solid rgb(75, 243, 9);
-  background: red;
-  display: inline-block;
+body{
+  background: rgb(blue);
 }
+div{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 350px;
+  height: 450px;
+  border: 4px solid rgb(91, 91, 236);
+  background: rgb yellow;
+  overflow: auto;
+}
+img{
+  position: relative;
+  top: 260px;
+  left: 240px;
+  outline: 5px solid rgb(2,255,20);
+  /*transition: all 1.25;*/
+}
+/* 
+div:hover >img{
+  width:300px;
+  position:relative;
+  top: 10px;
+  left: 20px;
+  outlaine: 4px solid rgb(255,187,0);
+}
+*/
