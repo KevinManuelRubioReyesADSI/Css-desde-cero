@@ -4,12 +4,11 @@
     font-size: 30px;
  }
 
-
-
-
- .caja-fixed{
-   background: greenyellow;
-   position: sticky;
-   opacity: .4;
-   top: -20px;
- }
+b{
+  width: 500px;
+  height: 150px;
+  margin: 30px;
+  border: 15px solid rgb(75, 243, 9);
+  background: red;
+  display: inline-block;
+}
