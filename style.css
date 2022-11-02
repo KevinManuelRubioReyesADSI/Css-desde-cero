@@ -4,17 +4,66 @@
     font-size: 30px;
  }
 
-.cont{
-  margin: auto;
-  margin-top: 50px;
-  border: 2px solid black;
-  background: blueviolet;
-  width: 500px;
+
+ .texto{
   padding: 20px;
 }
 
-.cont img{
-  float: right;
-  width: 250px;
-  margin-right: 18px;
+ .texto::first-line{
+  color: rgb(209, 191, 31);
+  font-size: 2rem;
+}
+
+.texto2{
+  padding: 20px;
+}
+
+.texto2::first-letter{
+  color: rgb(209, 191, 31);
+  font-size: 2rem;
+}
+
+form{
+  margin: 100px auto;
+  display: block;
+  background-color: rgb(240, 171, 171);
+  padding: 100px;
+  width: 50%;
+}
+
+input{
+  padding: 6px;
+  width: 100%;
+}
+
+input::selection{
+  background-color:rgb(240, 24, 24);
+  font-size: 30px;
+}
+
+p{
+  padding: 6px;
+  width: 100%;
+}
+
+p::selection{
+  color: rgb(39, 107, 253);
+  background-color: rgb(235, 34, 101);
+  font-size: 40px;
+}
+
+b{
+  padding: 6px;
+  width: 100%;
+}
+
+b::before{
+  content: "i am like";
+  color: rgb(153, 10, 82);
+}
+
+b::after{
+  content: "me gustan las motos y la mecanica ";
+  color: rgb(129, 0, 250);
+  background-color: rgb(247, 146, 22);
 }
