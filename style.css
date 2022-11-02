@@ -4,65 +4,20 @@
     font-size: 30px;
  }
 
- .caja1{
-  height: 200px;
-  width: 200px;
-  font-size: 2em;
-  background: rgb(253, 99, 124);
-  transition: background 1s, height 1s, width 1s;
- }
-
- .caja1:hover{
-  height: 300px;
-  width: 300px;
-  background: rgb(255, 58, 124);
-}
-
-.caja2{
-  padding: 20px;
-  background-color: rgb(255, 65, 122);
-  color: #000;
-}
-
-.caja2:hover{
-  padding: 20px;
-  background: rgb(247, 13, 91);
-  color: rgb(250, 175, 175);
-}
-
-a:link{
-  color: rgb(255, 32, 107);
-  background-color: rgb(98, 245, 40);
-}
-
-
-a:visited{
-  color: rgb(224, 24, 224);
-  background-color: rgb(27, 27, 27);
-  display: block;
-}
-
-.caja3{
-  width: 250px;
+.caja{
+  display: flex;
   height: 250px;
-  background: rgb(247, 28, 247);
-  margin: 25px;
-  transition: all 1s;
 }
 
-
-.caja3:active{
-  background: rgb(125, 243, 57);
-  width: 600px;
+.caja div{
+  flex: 1;
+  display: flex;
+  margin: 4px;
+  border: 1px solid red;
+  min-width: 120px;
 }
 
-.caja4{
-  margin: 25px;
-  background: rgb(206, 38, 66);
-  transition: background 0.4s, padding 0.4s;
-}
-
-.caja4:focus{
-  background: rgb(236, 17, 90);
-  padding: 20px;
+.caja img{
+  object-fit: cover;
+  width: 400px;
 }
